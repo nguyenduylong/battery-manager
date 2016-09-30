@@ -1,0 +1,438 @@
+<resources>
+    <string name="app_name">GPaddy Battery</string>
+    <string name="action_settings">Settings</string>
+    <string name="charge_activity">Battery Charge</string>
+    <string name="info_activity">Battery Info</string>
+    <string name="save_mode_activity">Save Mode</string>
+    <string name="create_save_mode_activity">Create saver mode</string>
+    <string name="rank_activity">Applications</string>
+    <string formatted="false" name="app_full_name">GPaddy Battery</string>
+    <string formatted="false" name="app_launcher_name">GPaddy Battery</string>
+    <string formatted="false" name="settings_activity_subtitle">Settings</string>
+    <string formatted="false" name="app_full_name_free">GPaddy Battery</string>
+
+    <string formatted="false" name="battery_use_b">View Battery Use</string>
+    <string formatted="false" name="upgrade_donate_b">Upgrade/Donate...</string>
+    <string formatted="false" name="circle_widget">BatteryBot Circle</string>
+    <string formatted="false" name="yes">Yes</string>
+    <string formatted="false" name="cancel">Cancel</string>
+
+    <string formatted="false" name="confirm_close">Really Close?</string>
+  <string formatted="false" name="confirm_close_hint">
+    BatteryBot will be completely closed, and you won\'t see it
+    in your status bar any more.  Any desktop widgets will be useless.\n
+
+    \nIf you just want to leave the main window and keep the service
+    running, press Cancel and then just press your device\'s BACK
+    button to leave the main window.\n
+
+    \nIf you want to hide the notification but keep widgets running,
+    press Cancel and then Hide Notification.
+  </string>
+    <string formatted="false" name="okay">Okay</string>
+    <string formatted="false" name="tab_current_info">Current Info</string>
+    <string formatted="false" name="notification_until_charged">" until charged"</string>
+    <string formatted="false" name="notification_until_drained">" left"</string>
+    <string formatted="false" name="activity_until_charged">until charged</string>
+    <string formatted="false" name="activity_until_drained">until drained</string>
+
+    <string formatted="false" name="menu_settings">Settings</string>
+    <string formatted="false" name="menu_close">Close</string>
+    <string formatted="false" name="menu_help">Help</string>
+    <string formatted="false" name="menu_rate_and_review">Rate &amp; Review</string>
+    <string formatted="false" name="menu_show_notification">Show Notification</string>
+    <string formatted="false" name="menu_hide_notification">Hide Notification</string>
+    <string formatted="false" name="percent_symbol">%</string>
+    <string formatted="false" name="degree_symbol">°</string>
+    <string formatted="false" name="fahrenheit">Fahrenheit</string>
+    <string formatted="false" name="fahrenheit_symbol">F</string>
+    <string formatted="false" name="celsius">Celsius</string>
+    <string formatted="false" name="celsius_symbol">C</string>
+    <string formatted="false" name="volt_symbol">V</string>
+    <!-- These are used for the CSV export. -->
+    <string formatted="false" name="status_unplugged">Unplugged</string>
+    <string formatted="false" name="status_unknown">Unknown</string>
+    <string formatted="false" name="status_charging">Charging</string>
+    <string formatted="false" name="status_discharging">Discharging</string>
+    <string formatted="false" name="status_not_charging">Not Charging</string>
+    <string formatted="false" name="status_fully_charged">Fully Charged</string>
+    <string formatted="false" name="health_unknown">Unknown</string>
+    <string formatted="false" name="health_good">Good</string>
+    <string formatted="false" name="health_overheat">OverHeat</string>
+    <string formatted="false" name="health_dead">Dead</string>
+    <string formatted="false" name="health_overvoltage">OverVoltage</string>
+    <string formatted="false" name="health_failure">Failure</string>
+    <string formatted="false" name="health_cold">Cold</string>
+    <string formatted="false" name="plugged_unplugged">Unplugged</string>
+    <string formatted="false" name="plugged_ac">(AC)</string>
+    <string formatted="false" name="plugged_usb">(USB)</string>
+    <string formatted="false" name="plugged_unknown">(?)</string>
+    <string formatted="false" name="plugged_wireless">(Wireless)</string>
+    <string name="hour">h</string>
+    <string name="minute">m</string>
+    <plurals name="n_log_items">
+        <item quantity="one">%d Log Item</item>
+        <item quantity="other">%d Log Items</item>
+    </plurals>
+    <plurals name="n_hours_long">
+        <item quantity="one">"%d hour, "</item>
+        <item quantity="other">"%d hours, "</item>
+    </plurals>
+
+    <plurals name="n_minutes_long">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+
+    <plurals name="n_hours_medium">
+        <item quantity="one">"%d hr, "</item>
+        <item quantity="other">"%d hrs, "</item>
+    </plurals>
+
+    <plurals name="n_minutes_medium">
+        <item quantity="one">%d min.</item>
+        <item quantity="other">%d mins.</item>
+    </plurals>
+
+    <plurals name="n_hours_short">
+        <item quantity="other">"%dh "</item>
+    </plurals>
+
+    <plurals name="n_minutes_short">
+        <item quantity="other">%dm</item>
+    </plurals>
+
+    <plurals name="n_days">
+        <item quantity="one">"%d day, "</item>
+        <item quantity="other">"%d days, "</item>
+    </plurals>
+
+    <plurals name="n_hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <string formatted="false" name="since">Since</string>
+    <plurals name="for_n_hours">
+        <item quantity="one">For %d Hour</item>
+        <item quantity="other">For %d Hours</item>
+    </plurals>
+    <string formatted="false" name="currently_using">Currently using</string>
+    <string formatted="false" name="currently_set_to">"Currently set to: "</string>
+    <string formatted="false" name="currently_disabled">Currently Disabled</string>
+
+    <string formatted="false" name="help_cat_version">Version</string>
+
+    <string formatted="false" name="help_cat_changelog">Changelog</string>
+  <string formatted="false" name="help_changelog">
+    Please see the <a href="http://www.batterybot.info/changelog">online Changelog</a>.
+  </string>
+
+    <string formatted="false" name="help_cat_faq">Frequently Asked Questions</string>
+  <string formatted="false" name="help_faq">
+    Please see the <a href="http://www.batterybot.info/faq">online FAQ</a>.
+  </string>
+
+    <string formatted="false" name="help_cat_google_plus">Google Plus Page</string>
+  <string formatted="false" name="help_google_plus">Consider
+    folowing the <a href="https://www.google.com/+BatterybotInfoAndroid">Google Plus Page</a>
+    for announcements and polls.
+  </string>
+
+    <string formatted="false" name="help_cat_website">Website</string>
+  <string formatted="false" name="help_website">More
+    infomation is available at the <a href="http://www.batterybot.info/">BatteryBot website</a>.
+  </string>
+
+    <string formatted="false" name="help_cat_open_source">Open Source</string>
+  <string formatted="false" name="help_open_source">This
+    is an open source project, which means you can <a href="http://www.batterybot.info/sourcecode">download the source
+    code</a>.
+  </string>
+
+    <string formatted="false" name="help_cat_donate">Donate</string>
+  <string formatted="false" name="help_donate">Please
+    consider donating by upgrading to the <a href="market://details?id=com.darshancomputing.BatteryIndicatorPro">Pro
+    Version</a>.
+  </string>
+
+    <string formatted="false" name="help_cat_no_warranty">No Warranty</string>
+  <string formatted="false" name="help_no_warranty">
+    This software is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n
+
+    \nWhile I do my best to make sure that it works well and does not
+    cause problems, I am not responsible for any damage or inconvenience
+    it may cause under any circumstance.
+  </string>
+
+    <string formatted="false" name="help_cat_acknowledgments">Acknowledgments</string>
+  <string formatted="false" name="help_acknowledgments">This
+    app would only be available in English without the generous
+    assistance of the volunteer translators.  Thanks!\n
+
+    \nMany thanks are due to Google and all of the open-source coders
+    who made the Android platform and this app possible.\n
+
+    \nThe launcher icon (the upright battery you see in the Market) is
+    based on an icon from <a href="http://www.oxygen-icons.org">the
+    Oxygen icon theme</a> and used under the
+    <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Common
+      Attribution-ShareAlike 3.0 License</a>.
+  </string>
+
+    <string formatted="false" name="help_cat_translations">Translations</string>
+  <string formatted="false" name="help_translations">I
+    need help translating this app to new languages and maintaining
+    the existing translations.  If you would like to help, please send
+    me an <a href="mailto:support%2Btranslations@batterybot.info">email</a>.
+    Please let me know if and how you would like your name listed in
+    this section in acknowledgment of your assistance.
+  </string>
+
+    <string formatted="false" name="help_subcat_translators">Translators</string>
+
+    <string formatted="false" name="help_cat_contact">Contact</string>
+  <string formatted="false" name="help_contact">If
+    you have a question, a problem, or a comment, please
+    <a href="mailto:support@batterybot.info">email me</a>.
+  </string>
+
+    <string formatted="false" name="pref_hint">Hint: Press MENU for help.</string>
+    <string formatted="false" name="pref_cat_more_settings_in_pro">More Settings in Pro</string>
+  <string formatted="false" name="pref_please_upgrade">
+    The Pro version has many more settings and features, including
+    current (mA) information,
+    colorful icons, alarms,
+    battery state logging,
+    and more.
+  </string>
+    <string formatted="false" name="pref_use_system_notification_layout">Use System Layout</string>
+    <string formatted="false" name="pref_use_system_notification_layout_summary">Use system notification layout rather than custom BatteryBot layout?</string>
+  <string formatted="false" name="pref_use_system_notification_layout_help">
+    If enabled, the system notification layout will be used instead of
+    BatteryBot\'s custom layout. The system layout is less
+    customizable, but a small minority of devices don\'t report
+    default colors properly, making the custom layout ugly or hard to
+    read. Other devices use an unusual layout, making the custom
+    layout not fit in. Selecting this option will ensure that the
+    notification will look like any other notification.\n
+
+    \nNote that this will result in having the status bar icon used in
+    the notification.
+  </string>
+    <string formatted="false" name="pref_icon_set">Icon Set</string>
+  <string formatted="false" name="pref_icon_set_help">
+    Android comes in many flavors, so there is no one perfect icon set
+    that works well on every device.  Pro users can use plugins to get
+    more options, but there are now three built-in icon sets that
+    should provide at least one good option for virtually every
+    device.\n
+
+    \n\"Classic\" is the original icon set from 2009.  It is still the
+    best on older devices, but newer versions of Android (starting
+    with Android 3.0, Honeycomb) shrink and dim the notification icons,
+    making this set very difficult to read.\n
+
+    \n\"Plain number\" is the default for all newer Android devices.
+    It is a very large white number that shows up well even after
+    being shrunk and dimmed.  It shows a lightning bolt under the
+    number during charging.\n
+
+    \n\"Smaller number\" is like \"Plain number\" but smaller, because
+    some newer devices do not actually shrink the icon like stock
+    Android does, and the very large number in \"Plain Number\" can
+    appear comically large on these devices.\n
+
+    \nIf you have any BatteryBot Pro icon plugins installed
+    (press MENU, then Get Plugins to get free plugins, or just press
+    the Get Plugins button on the Action Bar on newer devices), you
+    can choose among them here.
+  </string>
+    <string formatted="false" name="pref_notify_status_duration">Show Status Duration</string>
+    <string formatted="false" name="pref_notify_status_duration_summary">Show time since status changed rather than estimate of time remaining?</string>
+  <string formatted="false" name="pref_notify_status_duration_help">
+    Enable this setting if you\'d prefer the main notification to show
+    the time since the status changed (e.g., \"Unplugged for 5
+    hours\") rather than the estimate of time remaining.  Both pieces
+    of information are available from the main window.
+  </string>
+    <string formatted="false" name="pref_convert_to_fahrenheit">Convert to Fahrenheit</string>
+  <string formatted="false" name="pref_convert_to_fahrenheit_help">
+    Android reports the battery temperature in degrees Celsius.  If
+    you prefer to see the battery temperature in degrees Fahrenheit,
+    check this option, and the app will convert for you.
+  </string>
+    <string formatted="false" name="pref_classic_color_mode">Force Classic Color Mode</string>
+  <string formatted="false" name="pref_classic_color_mode_summary">
+    This usually does not work; please read the help
+  </string>
+  <string formatted="false" name="pref_classic_color_mode_help">
+    Starting with Android 5.0 (Lollipop), colored notification icons
+    officially no longer work on Android, making the Classic icon show
+    up as solid white. So by default, on these devices the app uses a
+    plain white outline with white number.\n
+
+    \nHowever, not all devices follow the spec, so this is not
+    necessary and does not work correctly everywhere.  You can try to
+    make the Classic icon set work in the classic way by turning this
+    option on.  Remember, on most devices this will just make the icon
+    turn solid white.
+  </string>
+    <!--string name="pref_cat_device_specific_help"></string-->
+    <!--string name="pref_alarm_enabled_summary"></string-->
+    <string formatted="false" name="pref_cat_notification_settings">Notification Settings</string>
+    <!--string name="pref_alarm_ringtone_summary"></string-->
+    <string formatted="false" name="silent">Silent</string>
+    <!--string name="pref_alarm_vibrate_summary"></string-->
+    <!--string name="pref_alarm_lights_summary"></string-->
+    <string formatted="false" name="icon_set_classic">Classic</string>
+    <string formatted="false" name="icon_set_plain">Plain Number</string>
+    <string formatted="false" name="icon_set_smaller">Smaller Number</string>
+    <string name="charge_time_remaining">Charge Remaining Time:</string>
+    <string name="time_remaining">Remaining Time:</string>
+    <string name="optimize">Optimize</string>
+
+    <!-- activity info-->
+    <string name="predict_action">Predict action:</string>
+    <string name="sleep_mode">Sleep</string>
+    <string name="call_mode">Call</string>
+    <string name="music_mode">Music</string>
+    <string name="browser_mode">Browser</string>
+    <string name="camera_mode">Camera</string>
+    <string name="film_mode">Film</string>
+    <string name="game_mode">Game</string>
+    <string name="gps_mode">GPS</string>
+    <string name="reading_mode">Reading</string>
+    <string name="record_mode">Record video</string>
+
+
+    <string name="ac_type">AC</string>
+    <string name="usb_type">USB</string>
+    <string name="wireless_type">WireLess</string>
+
+    <string name="switch_time_out">set screen off time :</string>
+    <string name="off_vibrate">Disable vibrate when comingcall</string>
+    <string name="on_vibrate">Enable vibrate when comingcall</string>
+    <string name="on_wifi">Enable wifi</string>
+    <string name="off_wifi">Disable wifi</string>
+    <string name="on_bluetooth">Enable Bluetooth</string>
+    <string name="off_bluetooth">Disable Bluetooth</string>
+    <string name="switch_normal">Set soundprofile: normal</string>
+     <string name="switch_silent">Set soundprofile: silent</string>
+    <string name="switch_vibrate">Set soundprofile: vibrate</string>
+    <string name="on_autorotate">Enable auto rotate</string>
+    <string name="off_autorotate">Disable auto rotate</string>
+    <string name="off_haptic">Disable haptic</string>
+    <string name="on_haptic">Enable haptic</string>
+    <string name="off_sync">Disable sync</string>
+    <string name="on_sync">Enable sync</string>
+    <string name="on_gps">Enable GPS</string>
+    <string name="off_gps">Disable GPS</string>
+    <string name="on_dataconnect">Enable data connection</string>
+    <string name="off_dataconnect">Disable data connection</string>
+    <string name="brightness_0">Brightness low</string>
+    <string name="brightness_1">Brightness mean</string>
+    <string name="brightness_2">Brightness medium</string>
+    <string name="brightness_3">Brightness hight</string>
+    <string name="brightness_auto">Auto Brightness</string>
+    <!-- drawer-->
+    <string name="setting">Setting</string>
+    <string name="info">Detail info</string>
+    <string name="about_us">About us</string>
+    <!-- activity charge-->
+    <string name="charge_full">Finish charge,Please  plug out charge to protect your battery !</string>
+    <string name="stop_butt">Stop</string>
+    <string name="detail_butt">Detail</string>
+    <string name="app">Applications</string>
+
+    <!-- activy add save mode  -->
+    <string name="brightness">Brightness</string>
+    <string name="screen_off">Screen off</string>
+    <string name="ringer_mode">Sound profile</string>
+    <string name="wifi">Wifi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="sync">Auto sync</string>
+    <string name="haptic">Haptic</string>
+    <string name="not_save">Cancle</string>
+    <string name="save">Save</string>
+    <!--dialog brightness-->
+    <string name="auto">Auto</string>
+    <string name="butt1">5%</string>
+    <string name="butt2">40%</string>
+    <string name="butt3">60%</string>
+    <string name="butt4">100%</string>
+    <string name="brightness_title">Brightness</string>
+    <!--dialog screen off-->
+    <string name="screen_title">Screen off time</string>
+    <string name="sbutt1">15 sec</string>
+    <string name="sbutt2">30 sec</string>
+    <string name="sbutt3">1 min</string>
+    <string name="sbutt4">2 min</string>
+    <string name="sbutt5">10 min</string>
+    <string name="sbutt6">30 min</string>
+    <!--dialog ringer mode-->
+    <string name="ringer_title">Sound profile</string>
+    <string name="rbutt1">Silent</string>
+    <string name="rbutt2">Vibrate</string>
+    <string name="rbutt3">Normal</string>
+    <!--switch off- on -->
+    <string name="switch_on">On</string>
+    <string name="switch_off">Off</string>
+    <!-- activity add saver mode-->
+    <string name="error_name">Input saver mode name !</string>
+    <string name="apply">Apply</string>
+    <!-- activity save mode-->
+    <string name="deep_sleep">Depp Sleep</string>
+    <string name="balance">Balanced</string>
+    <string name="default_mode">Default</string>
+    <string name="deep_sleep_detail">Turn off most functions, save battery as much as possible</string>
+    <string name="balance_detail">Turn off rarely used functions to save battery</string>
+    <string name="default_detail">Turn on most functions, good for daily use</string>
+  <!--activity optimize-->
+  <string name="activity_optimize">Optimize</string>
+  <string name="scanning">Scanning :</string>
+  <string name="complete">Finish !</string>
+  <string name="normal_optimize">Optimize</string>
+  <string name="super_optimize">Super Optimize</string>
+  <string name="time_add">Extend by  :</string>
+  <string name="process_kill">Applications will be closed :</string>
+  <string name="finish_kill">Optimized !</string>
+  <!--activity detail info-->
+  <string name="activity_detail_info">Battery Info</string>
+  <string name="health_status">Health status</string>
+  <string name="info_temperature">Tempeature</string>
+  <string name="info_full_power">Battery capacity</string>
+  <string name="info_current_power">Current power</string>
+  <string name="info_voltage">Voltage</string>
+  <string name="info_technology">Technology</string>
+  <!-- activity about me -->
+  <string name="about_me">About us</string>
+  <string name="rate_for_me">Rate app on Google Play</string>
+  <string name="like_on_facebook">Like on Facebook</string>
+  <string name="share_apk">Share apk to your friend</string>
+  <string name="share_link">Share link </string>
+  <!--activity setting-->
+  <string name="setting_title">Setting</string>
+  <string name="notifi_icon">Notification</string>
+  <string name="charge_setting">Charge setting</string>
+  <string name="convert_setting">View format</string>
+  <string name="normal_setting">General</string>
+  <string name="notifi_title">Toolbar widget</string>
+  <string name="notifi_detail">Display toolbar in notification area</string>
+  <string name="speed_charge_title">Boost charge</string>
+  <string name="speed_charge_detail">Speed up battery charging</string>
+  <string name="charge_sound_title">Notify full battery</string>
+  <string name="charge_sound_detail">Sound when battery is full</string>
+  <string name="temperature_title">Temperature Unit</string>
+  <string name="c_temperature">Celsius</string>
+  <string name="f_temperature">Fahrenheit</string>
+  <string name="langue_title">Language</string>
+  <string name="vn_lang">Tiếng Việt</string>
+  <string name="en_lang">English</string>
+  <!-- dialog select temp , select lang-->
+  <string name="temp_tile">Temperature</string>
+  <string name="c_temp">Celsius</string>
+  <string name="f_temp">Fahrenheit</string>
+  <string name="lang_title">Language</string>
+    </resources>

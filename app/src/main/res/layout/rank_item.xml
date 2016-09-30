@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/color_background">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.8"
+        android:padding="2dp"
+        android:id="@+id/img_app_icon"
+        android:src="@drawable/tool_airplane_on"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="4"
+        android:orientation="vertical">
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:textColor="#ffffff"
+            android:layout_weight="1"
+            android:lines="1"
+            android:text="app name"
+            android:textSize="15sp"
+            android:id="@+id/text_app_name"/>
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:textColor="#d1cfcf"
+            android:id="@+id/text_app_size"
+            android:gravity="top|left"
+            android:textSize="12sp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/rank_butt"
+        android:text="@string/stop_butt"
+        android:textColor="@color/battery_color"
+        android:id="@+id/stop_butt"
+        />
+</LinearLayout>

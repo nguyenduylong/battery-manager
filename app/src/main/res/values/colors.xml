@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#212225</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_pressed">#58595d</color>
+    <color name="background_not_pressed">#2c2e32</color>
+    <color name="tool_pressed">#2c2e32</color>
+    <color name="tool_not_pressed">#37474f</color>
+    <color name="battery_color">#18cc13</color>
+    <color name="color_background">#37474f</color>
+    <color name="battery_background">#95a5a6</color>
+    <color name="white">#ffffff</color>
+    <color name="text_color">#d1cfcf</color>
+    <color name ="toolbar_background">#2c2e32</color>
+    <color name="red">#FFF21512</color>
+</resources>

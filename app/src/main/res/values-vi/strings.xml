@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPaddy Battery</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="charge_activity">Sạc điện</string>
+    <string name="info_activity">Tình trạng pin</string>
+    <string name="save_mode_activity">Chế độ tiết kiệm</string>
+    <string name="create_save_mode_activity">Tạo chế độ</string>
+    <string name="rank_activity">Theo dõi ứng dụng</string>
+    <string formatted="false" name="app_full_name">GPaddy Battery</string>
+    <string formatted="false" name="app_launcher_name">GPaddy Battery </string>
+    <string formatted="false" name="settings_activity_subtitle">Settings</string>
+    <string formatted="false" name="app_full_name_free">GPaddy Battery</string>
+
+    <string formatted="false" name="battery_use_b">View Battery Use</string>
+    <string formatted="false" name="upgrade_donate_b">Upgrade/Donate...</string>
+    <string formatted="false" name="circle_widget">BatteryBot Circle</string>
+    <string formatted="false" name="yes">Yes</string>
+    <string formatted="false" name="cancel">Cancel</string>
+
+    <string formatted="false" name="confirm_close">Really Close?</string>
+  <string formatted="false" name="confirm_close_hint">
+    BatteryBot will be completely closed, and you won\'t see it
+    in your status bar any more.  Any desktop widgets will be useless.\n
+
+    \nIf you just want to leave the main window and keep the service
+    running, press Cancel and then just press your device\'s BACK
+    button to leave the main window.\n
+
+    \nIf you want to hide the notification but keep widgets running,
+    press Cancel and then Hide Notification.
+  </string>
+    <string formatted="false" name="okay">Okay</string>
+    <string formatted="false" name="tab_current_info">Current Info</string>
+    <string formatted="false" name="notification_until_charged">" until charged"</string>
+    <string formatted="false" name="notification_until_drained">" left"</string>
+    <string formatted="false" name="activity_until_charged">until charged</string>
+    <string formatted="false" name="activity_until_drained">until drained</string>
+
+    <string formatted="false" name="menu_settings">Settings</string>
+    <string formatted="false" name="menu_close">Close</string>
+    <string formatted="false" name="menu_help">Help</string>
+    <string formatted="false" name="menu_rate_and_review">Rate &amp; Review</string>
+    <string formatted="false" name="menu_show_notification">Show Notification</string>
+    <string formatted="false" name="menu_hide_notification">Hide Notification</string>
+    <string formatted="false" name="percent_symbol">%</string>
+    <string formatted="false" name="degree_symbol">°</string>
+    <string formatted="false" name="fahrenheit">Fahrenheit</string>
+    <string formatted="false" name="fahrenheit_symbol">F</string>
+    <string formatted="false" name="celsius">Celsius</string>
+    <string formatted="false" name="celsius_symbol">C</string>
+    <string formatted="false" name="volt_symbol">V</string>
+    <!-- These are used for the CSV export. -->
+    <string formatted="false" name="status_unplugged">Unplugged</string>
+    <string formatted="false" name="status_unknown">Unknown</string>
+    <string formatted="false" name="status_charging">Charging</string>
+    <string formatted="false" name="status_discharging">Discharging</string>
+    <string formatted="false" name="status_not_charging">Not Charging</string>
+    <string formatted="false" name="status_fully_charged">Fully Charged</string>
+    <string formatted="false" name="health_unknown">Unknown</string>
+    <string formatted="false" name="health_good">Tốt</string>
+    <string formatted="false" name="health_overheat">Quá nóng</string>
+    <string formatted="false" name="health_dead">Không hoạt động</string>
+    <string formatted="false" name="health_overvoltage">Overvoltage</string>
+    <string formatted="false" name="health_failure">Không thích hợp</string>
+    <string formatted="false" name="health_cold">Mát</string>
+    <string formatted="false" name="plugged_unplugged">Unplugged</string>
+    <string formatted="false" name="plugged_ac">(AC)</string>
+    <string formatted="false" name="plugged_usb">(USB)</string>
+    <string formatted="false" name="plugged_unknown">(?)</string>
+    <string formatted="false" name="plugged_wireless">(Wireless)</string>
+    <string name="hour">Giờ</string>
+    <string name="minute">Phút</string>
+    <plurals name="n_log_items">
+        <item quantity="one">%d Log Item</item>
+        <item quantity="other">%d Log Items</item>
+    </plurals>
+    <plurals name="n_hours_long">
+        <item quantity="one">"%d hour, "</item>
+        <item quantity="other">"%d hours, "</item>
+    </plurals>
+
+    <plurals name="n_minutes_long">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+
+    <plurals name="n_hours_medium">
+        <item quantity="one">"%d hr, "</item>
+        <item quantity="other">"%d hrs, "</item>
+    </plurals>
+
+    <plurals name="n_minutes_medium">
+        <item quantity="one">%d min.</item>
+        <item quantity="other">%d mins.</item>
+    </plurals>
+
+    <plurals name="n_hours_short">
+        <item quantity="other">"%dh "</item>
+    </plurals>
+
+    <plurals name="n_minutes_short">
+        <item quantity="other">%dm</item>
+    </plurals>
+
+    <plurals name="n_days">
+        <item quantity="one">"%d day, "</item>
+        <item quantity="other">"%d days, "</item>
+    </plurals>
+
+    <plurals name="n_hours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+    <string formatted="false" name="since">Since</string>
+    <plurals name="for_n_hours">
+        <item quantity="one">For %d Hour</item>
+        <item quantity="other">For %d Hours</item>
+    </plurals>
+    <string formatted="false" name="currently_using">Currently using</string>
+    <string formatted="false" name="currently_set_to">"Currently set to: "</string>
+    <string formatted="false" name="currently_disabled">Currently Disabled</string>
+
+    <string formatted="false" name="help_cat_version">Version</string>
+
+    <string formatted="false" name="help_cat_changelog">Changelog</string>
+  <string formatted="false" name="help_changelog">
+    Please see the <a href="http://www.batterybot.info/changelog">online Changelog</a>.
+  </string>
+
+    <string formatted="false" name="help_cat_faq">Frequently Asked Questions</string>
+  <string formatted="false" name="help_faq">
+    Please see the <a href="http://www.batterybot.info/faq">online FAQ</a>.
+  </string>
+
+    <string formatted="false" name="help_cat_google_plus">Google Plus Page</string>
+  <string formatted="false" name="help_google_plus">Consider
+    folowing the <a href="https://www.google.com/+BatterybotInfoAndroid">Google Plus Page</a>
+    for announcements and polls.
+  </string>
+
+    <string formatted="false" name="help_cat_website">Website</string>
+  <string formatted="false" name="help_website">More
+    infomation is available at the <a href="http://www.batterybot.info/">BatteryBot website</a>.
+  </string>
+
+    <string formatted="false" name="help_cat_open_source">Open Source</string>
+  <string formatted="false" name="help_open_source">This
+    is an open source project, which means you can <a href="http://www.batterybot.info/sourcecode">download the source
+    code</a>.
+  </string>
+
+    <string formatted="false" name="help_cat_donate">Donate</string>
+  <string formatted="false" name="help_donate">Please
+    consider donating by upgrading to the <a href="market://details?id=com.darshancomputing.BatteryIndicatorPro">Pro
+    Version</a>.
+  </string>
+
+    <string formatted="false" name="help_cat_no_warranty">No Warranty</string>
+  <string formatted="false" name="help_no_warranty">
+    This software is distributed in the hope that it will be useful, but
+    WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n
+
+    \nWhile I do my best to make sure that it works well and does not
+    cause problems, I am not responsible for any damage or inconvenience
+    it may cause under any circumstance.
+  </string>
+
+    <string formatted="false" name="help_cat_acknowledgments">Acknowledgments</string>
+  <string formatted="false" name="help_acknowledgments">This
+    app would only be available in English without the generous
+    assistance of the volunteer translators.  Thanks!\n
+
+    \nMany thanks are due to Google and all of the open-source coders
+    who made the Android platform and this app possible.\n
+
+    \nThe launcher icon (the upright battery you see in the Market) is
+    based on an icon from <a href="http://www.oxygen-icons.org">the
+    Oxygen icon theme</a> and used under the
+    <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Common
+      Attribution-ShareAlike 3.0 License</a>.
+  </string>
+
+    <string formatted="false" name="help_cat_translations">Translations</string>
+  <string formatted="false" name="help_translations">I
+    need help translating this app to new languages and maintaining
+    the existing translations.  If you would like to help, please send
+    me an <a href="mailto:support%2Btranslations@batterybot.info">email</a>.
+    Please let me know if and how you would like your name listed in
+    this section in acknowledgment of your assistance.
+  </string>
+
+    <string formatted="false" name="help_subcat_translators">Translators</string>
+
+    <string formatted="false" name="help_cat_contact">Contact</string>
+  <string formatted="false" name="help_contact">If
+    you have a question, a problem, or a comment, please
+    <a href="mailto:support@batterybot.info">email me</a>.
+  </string>
+
+    <string formatted="false" name="pref_hint">Hint: Press MENU for help.</string>
+    <string formatted="false" name="pref_cat_more_settings_in_pro">More Settings in Pro</string>
+  <string formatted="false" name="pref_please_upgrade">
+    The Pro version has many more settings and features, including
+    current (mA) information,
+    colorful icons, alarms,
+    battery state logging,
+    and more.
+  </string>
+    <string formatted="false" name="pref_use_system_notification_layout">Use System Layout</string>
+    <string formatted="false" name="pref_use_system_notification_layout_summary">Use system notification layout rather than custom BatteryBot layout?</string>
+  <string formatted="false" name="pref_use_system_notification_layout_help">
+    If enabled, the system notification layout will be used instead of
+    BatteryBot\'s custom layout. The system layout is less
+    customizable, but a small minority of devices don\'t report
+    default colors properly, making the custom layout ugly or hard to
+    read. Other devices use an unusual layout, making the custom
+    layout not fit in. Selecting this option will ensure that the
+    notification will look like any other notification.\n
+
+    \nNote that this will result in having the status bar icon used in
+    the notification.
+  </string>
+    <string formatted="false" name="pref_icon_set">Icon Set</string>
+  <string formatted="false" name="pref_icon_set_help">
+    Android comes in many flavors, so there is no one perfect icon set
+    that works well on every device.  Pro users can use plugins to get
+    more options, but there are now three built-in icon sets that
+    should provide at least one good option for virtually every
+    device.\n
+
+    \n\"Classic\" is the original icon set from 2009.  It is still the
+    best on older devices, but newer versions of Android (starting
+    with Android 3.0, Honeycomb) shrink and dim the notification icons,
+    making this set very difficult to read.\n
+
+    \n\"Plain number\" is the default for all newer Android devices.
+    It is a very large white number that shows up well even after
+    being shrunk and dimmed.  It shows a lightning bolt under the
+    number during charging.\n
+
+    \n\"Smaller number\" is like \"Plain number\" but smaller, because
+    some newer devices do not actually shrink the icon like stock
+    Android does, and the very large number in \"Plain Number\" can
+    appear comically large on these devices.\n
+
+    \nIf you have any BatteryBot Pro icon plugins installed
+    (press MENU, then Get Plugins to get free plugins, or just press
+    the Get Plugins button on the Action Bar on newer devices), you
+    can choose among them here.
+  </string>
+    <string formatted="false" name="pref_notify_status_duration">Show Status Duration</string>
+    <string formatted="false" name="pref_notify_status_duration_summary">Show time since status changed rather than estimate of time remaining?</string>
+  <string formatted="false" name="pref_notify_status_duration_help">
+    Enable this setting if you\'d prefer the main notification to show
+    the time since the status changed (e.g., \"Unplugged for 5
+    hours\") rather than the estimate of time remaining.  Both pieces
+    of information are available from the main window.
+  </string>
+    <string formatted="false" name="pref_convert_to_fahrenheit">Convert to Fahrenheit</string>
+  <string formatted="false" name="pref_convert_to_fahrenheit_help">
+    Android reports the battery temperature in degrees Celsius.  If
+    you prefer to see the battery temperature in degrees Fahrenheit,
+    check this option, and the app will convert for you.
+  </string>
+    <string formatted="false" name="pref_classic_color_mode">Force Classic Color Mode</string>
+  <string formatted="false" name="pref_classic_color_mode_summary">
+    This usually does not work; please read the help
+  </string>
+  <string formatted="false" name="pref_classic_color_mode_help">
+    Starting with Android 5.0 (Lollipop), colored notification icons
+    officially no longer work on Android, making the Classic icon show
+    up as solid white. So by default, on these devices the app uses a
+    plain white outline with white number.\n
+
+    \nHowever, not all devices follow the spec, so this is not
+    necessary and does not work correctly everywhere.  You can try to
+    make the Classic icon set work in the classic way by turning this
+    option on.  Remember, on most devices this will just make the icon
+    turn solid white.
+  </string>
+    <!--string name="pref_cat_device_specific_help"></string-->
+    <!--string name="pref_alarm_enabled_summary"></string-->
+    <string formatted="false" name="pref_cat_notification_settings">Notification Settings</string>
+    <!--string name="pref_alarm_ringtone_summary"></string-->
+    <string formatted="false" name="silent">Silent</string>
+    <!--string name="pref_alarm_vibrate_summary"></string-->
+    <!--string name="pref_alarm_lights_summary"></string-->
+    <string formatted="false" name="icon_set_classic">Classic</string>
+    <string formatted="false" name="icon_set_plain">Plain Number</string>
+    <string formatted="false" name="icon_set_smaller">Smaller Number</string>
+    <string name="charge_time_remaining">Thời gian sạc còn lại:</string>
+    <string name="time_remaining">Thời gian sử dụng còn lại:</string>
+    <string name="optimize">Tối ưu hóa</string>
+
+    <!-- activity info-->
+    <string name="predict_action">Hoạt động dự kiến :</string>
+    <string name="sleep_mode">Ngủ</string>
+    <string name="call_mode">Gọi điện</string>
+    <string name="music_mode">Nhạc</string>
+    <string name="browser_mode">Trình duyệt</string>
+    <string name="camera_mode">Chụp hình</string>
+    <string name="film_mode">Xem video</string>
+    <string name="game_mode">Trờ chơi</string>
+    <string name="gps_mode">GPS</string>
+    <string name="reading_mode">Đọc sách</string>
+    <string name="record_mode">Quay video</string>
+
+
+    <string name="ac_type">AC</string>
+    <string name="usb_type">USB</string>
+    <string name="wireless_type">WireLess</string>
+
+    <string name="switch_time_out">Cài đặt thời gian chờ </string>
+    <string name="off_vibrate">Tắt rung khi cuộc gọi đến</string>
+    <string name="on_vibrate">Bật rung khi cuộc gọi đến</string>
+    <string name="on_wifi">Bật wifi</string>
+    <string name="off_wifi">Tắt wifi</string>
+    <string name="on_bluetooth">Bật Bluetooth</string>
+    <string name="off_bluetooth">Tắt Bluetooth</string>
+    <string name="switch_normal">Cài đặt cấu hình điện thoại: chế độ bình thường</string>
+    <string name="switch_silent">Cài đặt cấu hình điện thoại: chế độ im lặng</string>
+    <string name="switch_vibrate">Cài đặt cấu hình điện thoại: chế độ rung</string>
+    <string name="on_autorotate">Bật tự dộng xoay màn hình</string>
+    <string name="off_autorotate">Tắt tự động xoay màn hình</string>
+    <string name="off_haptic">Tắt phản hồi chạm</string>
+    <string name="on_haptic">Bật phản hồi chạm</string>
+    <string name="off_sync">Tắt đồng bộ</string>
+    <string name="on_sync">Bật đồng bộ</string>
+    <string name="on_gps">Bật GPS</string>
+    <string name="off_gps">Tắt GPS</string>
+    <string name="on_dataconnect">Bật dữ liệu di động</string>
+    <string name="off_dataconnect">Tắt dữ liệu di động</string>
+    <string name="brightness_0">Độ sáng màn hình thấp</string>
+    <string name="brightness_1">Độ sáng màn hình trung bình</string>
+    <string name="brightness_2">Độ sáng màn hình vừa</string>
+    <string name="brightness_3">Độ sáng màn hình cao</string>
+    <string name="brightness_auto">Độ sáng màn hình tự động</string>
+    <!-- drawer-->
+    <string name="setting">Cài đặt</string>
+    <string name="info">Thông tin</string>
+    <string name="about_us">Chúng tôi</string>
+    <!-- activity charge-->
+    <string name="charge_full">Sạc xong , hãy rút sạc để đỡ làm hại pin </string>
+    <string name="stop_butt">Dừng</string>
+    <string name="detail_butt">Chi tiết</string>
+    <string name="system_show">Ẩn ứng dụng hệ thống</string>
+    <string name="app">Ứng dụng</string>
+
+    <!-- activy add save mode  -->
+    <string name="brightness">Độ sáng</string>
+    <string name="screen_off">Khóa màn hình</string>
+    <string name="ringer_mode">Cấu hình</string>
+    <string name="wifi">Wifi</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="sync">Đồng độ dữ liệu</string>
+    <string name="haptic">Phản hồi cử chỉ</string>
+    <string name="not_save">Huỷ</string>
+    <string name="save">Lưu</string>
+    <!--dialog brightness-->
+    <string name="auto">Tự động</string>
+    <string name="butt1">5%</string>
+    <string name="butt2">40%</string>
+    <string name="butt3">60%</string>
+    <string name="butt4">100%</string>
+    <string name="brightness_title">Độ sáng màn hình</string>
+    <!--dialog screen off-->
+    <string name="screen_title">Thời gian khóa màn hình</string>
+    <string name="sbutt1">15 giây</string>
+    <string name="sbutt2">30 giây</string>
+    <string name="sbutt3">1 phút</string>
+    <string name="sbutt4">2 phút</string>
+    <string name="sbutt5">10 phút</string>
+    <string name="sbutt6">30 phút</string>
+    <!--dialog ringer mode-->
+    <string name="ringer_title">Cấu hình điện thoại</string>
+    <string name="rbutt1">Im Lặng</string>
+    <string name="rbutt2">Rung</string>
+    <string name="rbutt3">Chuông</string>
+    <!--switch off- on -->
+    <string name="switch_on">Bật</string>
+    <string name="switch_off">Tắt</string>
+    <!-- activity add saver mode-->
+    <string name="error_name">Nhập tên chế độ !</string>
+    <string name="apply">Áp dụng</string>
+    <!-- activity save mode-->
+    <string name="deep_sleep">Ngủ sâu</string>
+    <string name="balance">Cân bằng</string>
+    <string name="default_mode">Mặc định</string>
+    <string name="deep_sleep_detail">Tắt hầu hết các tính năng , tiết kiệm pin càng nhiều càng tốt</string>
+    <string name="balance_detail">Tắt các chức năng hiếm khi sủ dụng</string>
+    <string name="default_detail">Bật hầu hết các tính năng</string>
+    <!--activity optimize-->
+    <string name="activity_optimize">Tối ưu hóa</string>
+    <string name="scanning">Đang quét :</string>
+    <string name="complete">Hoàn tất !</string>
+    <string name="normal_optimize">Tối ưu</string>
+    <string name="super_optimize">Siêu tối ưu</string>
+    <string name="time_add">Thời lượng pin kéo dài thêm :</string>
+    <string name="process_kill">Các ứng dụng sắp bị đóng :</string>
+    <string name="finish_kill">Đã tối ưu hóa !</string>
+    <!--activity detail info-->
+    <string name="activity_detail_info">Battery Info</string>
+    <string name="health_status">Tình trạng</string>
+    <string name="info_temperature">Nhiệt độ</string>
+    <string name="info_full_power">Dung lượng pin</string>
+    <string name="info_current_power">Dung lượng hiên tại</string>
+    <string name="info_voltage">Vôn</string>
+    <string name="info_technology">Công nghê</string>
+    <!-- activity about me -->
+    <string name="about_me">Thông tin về chúng tôi</string>
+    <string name="rate_for_me">Đánh giá trên Google Play</string>
+    <string name="like_on_facebook">Theo dõi chúng tôi trên Facebook</string>
+    <string name="share_apk">Chia sẻ Apk cho bạn bè</string>
+    <string name="share_link">Chia sẻ liên kết </string>
+    <!--activity setting-->
+    <string name="setting_title">Cài đặt</string>
+    <string name="notifi_icon">Tiện ích icon và lối tắt</string>
+    <string name="charge_setting">Cài đặt sạc pin</string>
+    <string name="convert_setting">Định dạng xem </string>
+    <string name="normal_setting">Cài đặt chung</string>
+    <string name="notifi_title">Tiện ích thanh công cụ</string>
+    <string name="notifi_detail">Hiện thị thanh công cụ trong thông báo</string>
+    <string name="speed_charge_title">Bật sạc nhanh</string>
+    <string name="speed_charge_detail">Tăng tốc độ sạc pin</string>
+    <string name="charge_sound_title">Thông báo sạc đầy</string>
+    <string name="charge_sound_detail">Phát âm báo khi sạc đầy</string>
+    <string name="temperature_title">Định dạng nhiệt độ</string>
+    <string name="c_temperature">Độ C</string>
+    <string name="f_temperature">Độ F</string>
+    <string name="langue_title">Ngôn ngữ</string>
+    <string name="vn_lang">Tiếng Việt</string>
+    <string name="en_lang">English</string>
+    <!-- dialog select temp , select lang-->
+    <string name="temp_tile">Nhiệt độ</string>
+    <string name="c_temp">Độ C</string>
+    <string name="f_temp">Độ F</string>
+    <string name="lang_title">Ngôn ngữ</string>
+</resources>
